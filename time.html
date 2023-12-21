@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Day-Time</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="centre">
+        <h1 id="main"></h1>
+        <h3 id="motiv"></h3>
+      </div>
+
+      <div class="sat">
+        <h1 id="bored">Are You Bored?</h1>
+        <button id="btn">Get Activity</button>
+        <div id="content">
+          <h3 id="activity"></h3>
+        </div>
+      </div>
+    </div>
+    <div
+      id="loading"
+      style="
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+      "
+    >
+      Loading...
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
